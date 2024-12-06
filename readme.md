@@ -254,19 +254,8 @@ This GitHub repo shows you how to leverage the Azure OpenAI function calling.
 
 ### Step 5: Test the Applications
 
-
-1. **Start RectangleBot**:
-   ```bash
-   python rectanglebot.py
-   ```
-
-2. **Start BackendLogic**:
-   ```bash
-   python backendlogic.py
-   ```
-
-3. **Open a Web Browser** and go to `http://127.0.0.1:5000`.
-4. **Interact with RectangleBot** using the chat interface.
+1. **Open a Web Browser** and go to `http://127.0.0.1:5000`.
+2. **Interact with RectangleBot** using the chat interface.
 ### Explanation
 
 - **RectangleBot**: Collects user inputs and constructs the function call using the Azure OpenAI API.
@@ -275,5 +264,7 @@ This GitHub repo shows you how to leverage the Azure OpenAI function calling.
 This setup ensures that your application collects user inputs, constructs the function call, and triggers the backend logic to perform the calculation.
 ![test](/test.jpg)
 
-### Reference
+### References
 [Get started with Azure OpenAI with Assistants and function calling](https://learn.microsoft.com/en-us/azure/developer/javascript/ai/get-started-app-chat-assistants-function-calling?tabs=github-codespaces)
+
+[How to use function calling with Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/function-calling)
